@@ -1,0 +1,12 @@
+body{
+    background-image: url(fundoAstroBlog.png);
+}
+.homebuttom{
+    position: relative;
+    margin-left: 1650px;
+}
+.photos{
+    border-radius: 30px;
+    position: relative;
+    margin-right: 5px;
+}
