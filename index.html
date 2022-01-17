@@ -8,37 +8,24 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="title"><em>Welcome to my website</em></h1>
-        <h1 id="linkedin"><a href="https://www.linkedin.com/in/guilherme-do-carmo-souza-9305b0228/" target="_blank"><img src="linkedin.png" width="25" height="25"></a></h1>
-        <p id="github"><a href="https://github.com/SouzaCoder" target="_blank"><img src="GitHub.jpg" width="30" height="30"></a></p>
+    <header class="head">
+        <h1 class="title"><em>Guilherme Souza</em></h1>
+        <nav class="navlinks">
+            <a class="item" href="./Skills.html">Skills</a>
+            <a class="item" href="./Astroblog.html">Astroblog</a>
+            <a class="item" href="#aboutme">About me</a>
+            <a class="item" href="#contact">Contact me</a>
+        </nav>
+        <div class="navlinks2">
+            <a href="https://www.linkedin.com/in/guilherme-do-carmo-souza-9305b0228/" target="_blank"><img src="linkedin.png" width="25" height="25"></a>
+            <a href="https://github.com/SouzaCoder" target="_blank"><img src="GitHub.png" width="25" height="25"></a>
+        </div>
     </header>
     <!------------------------------------------------------------MAIN START---------------------------------------------------------------------->
     <main>
-        <section class="skills">
-            <ul>
-                <nav id="skillspos">
-                    <p><a href="./Skills.html"><strong>Skills</strong></a></p>
-                    <p><a href="./Astroblog.html"><strong>Astroblog</strong></a></p>
-                </nav>
-                    <br>
-                    <li><a href="#aboutme">About me</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-            </ul>
+        <section><p><strong>About me</strong></p>
+            My name is Guilherme Souza, I live in Brazil and I´m  17 years old and I´ve been programming for at least one year
         </section>
-        <section id="aboutme"><p><strong>About me</strong></p>
-            <ul>
-                <li>My name is Guilherme Souza, I live in Brazil and I´m  17 years old and I´ve been programming for at least one year</li>
-            </ul>
-        </section>    
-        <nav id="contact"><p><strong>Contact me</strong></p>        
-            <ul>
-                <li><a href="https://www.linkedin.com/in/guilherme-do-carmo-souza-9305b0228/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/SouzaCoder" target="_blank">GitHub</a></li>
-                <li>Email: guisou1902@gmail.com</li>
-            </ul>
-
-        </nav>
     </main>
     <!-----------------------------------------------------------MAIN END------------------------------------------------------------------------------>  
     <!--<img src = "Foto-Apod-CEAAL.jpg" width="640" height="480" /> 
@@ -46,22 +33,34 @@
     <video src = "Escondido em mim - Rodolfo Abrantes.mp4" width="320" height="240" controls> Video not supported</video> Coment-->
     <!-----------------------------------------------------------FOOTER START-------------------------------------------------------------------------->
     <footer>
-        <form>
-            <h1>Talk to me</h1>
+        <div class="contact">
+            <h2>Rio de Janeiro, Brazil</h2>
+            <p><a href="https://www.linkedin.com/in/guilherme-do-carmo-souza-9305b0228/" target="_blank">LinkedIn</a></p>
+            <p><a href="https://github.com/SouzaCoder" target="_blank">GitHub</a></p>
+            <p>WhatsApp: (21) 98615-7250</p>
+            <p>Email: guisou1902@gmail.com</p>
+        </div>
+        <form class="form">
             <label for="name">Name:</label>
             <br>
-            <input type="text"name=""id="name" size="54" required></input>
+            <input type="text"name=""id="name" size="54" required/>
             <br>
             <label for="email">E-mail:</label>
             <br>
-            <input type="text"name="email"id="email:" size="54" required></input>
+            <input type="email"name="email"id="email:" size="54" required/>
             <br>
             <label for="mensagem">Mensagem:</label>
             <br>
-            <textarea type="text"name="email"id="mensagem" rows="4"cols="40" required></textarea>
+            <textarea type="text"name="email"id="mensagem" rows="10"cols="40" required></textarea>
             <br>
-            <input type="submit"value="Send"></input>
+            <div class="button">
+                <button type="submit">Send</button>
+            </div>
         </form>
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/guilherme-do-carmo-souza-9305b0228/" target="_blank"><img src="linkedin.png" width="50" height="50"></a>
+            <a href="https://github.com/SouzaCoder" target="_blank"><img src="GitHub.png" width="50" height="50"></a>
+        </div:>
     </footer>
     <!----------------------------------------------------------FOOTER END---------------------------------------------------------------------------->
 </body>
